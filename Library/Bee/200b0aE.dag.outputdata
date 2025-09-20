@@ -1,1 +1,1 @@
-{"ScriptCompilationBuildProgram.Data.ScriptCompilationData_Out":{"Assemblies":[]}}
+{"Bee.Core.BuildProgramContext+BuildProgramContextOutputData":{"MaxRerunAllowed":2147483647},"ScriptCompilationBuildProgram.Data.ScriptCompilationData_Out":{"Assemblies":[{"Path":"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll","ScriptUpdaterRsp":"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp","MovedFromExtractorFile":"/Users/sophiawang/Documents/GitHub/Intermediate-Game-Dev-HW2/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm"}]}}
