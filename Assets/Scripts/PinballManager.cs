@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PinballManager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class PinballManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = score.ToString();
+        scoreText.text = "Score: "+score.ToString();
     }
 
     // Update is called once per frame

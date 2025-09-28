@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Subtarget: 2
   m_PlatformId: 0d2129357eac403d8b359c2dcbf82502
   m_PlatformBuildProfile:
-    rid: 7715724346579746816
+    rid: 7715724347406024704
   m_Scenes: []
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -24,7 +24,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7715724346579746816
+    - rid: 7715724347406024704
       type: {class: OSXStandaloneBuildProfile, ns: UnityEditor.OSXStandalone, asm: UnityEditor.OSXStandalone.Extensions}
       data:
         m_Development: 0

@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Subtarget: 0
   m_PlatformId: 00000000000000000000000000000000
   m_PlatformBuildProfile:
-    rid: 7715724346579746817
+    rid: 7715724347406024705
   m_Scenes: []
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -24,7 +24,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7715724346579746817
+    - rid: 7715724347406024705
       type: {class: SharedPlatformSettings, ns: UnityEditor.Build.Profile, asm: UnityEditor.CoreModule}
       data:
         m_Development: 0

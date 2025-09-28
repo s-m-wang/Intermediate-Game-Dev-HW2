@@ -19,7 +19,7 @@ public class PinballFlipper : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(flipKey)) {
-            myBody.AddForce(transform.up * 500);
+            myBody.AddForce(transform.up * 5000);
         }
     }
 }

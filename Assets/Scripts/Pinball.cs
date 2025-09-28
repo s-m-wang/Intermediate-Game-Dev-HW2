@@ -23,9 +23,9 @@ public class Pinball : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision) {
         switch (collision.gameObject.tag) {
             case "bumper" :
-                myBody.AddForce(transform.up * 500);
+                myBody.AddForce(transform.up * 2000);
                 break;
-            case "flipper" :
+            case "wall" :
                 myBody.AddForce(transform.up * 500);
                 break;
         }
