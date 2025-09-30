@@ -12,6 +12,9 @@ TagManager:
   - ball
   - wall
   - bumper
+  - spin
+  - gumdrop
+  - pop
   layers:
   - Default
   - TransparentFX

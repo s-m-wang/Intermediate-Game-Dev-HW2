@@ -9,17 +9,22 @@ public class PinballFlipper : MonoBehaviour
 
     [SerializeField]
     Rigidbody2D myBody;
+
+    AudioSource myCDPlayer;
+    public AudioClip flipperCD;
     // Start is called before the first frame update
+    
     void Start()
     {
-        
+        myCDPlayer = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(flipKey)) {
-            myBody.AddForce(transform.up * 5000);
+            myCDPlayer.PlayOneShot(flipperCD);
+            myBody.AddForce(transform.up * 10000);
         }
     }
 }
