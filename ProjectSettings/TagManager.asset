@@ -15,6 +15,7 @@ TagManager:
   - spin
   - gumdrop
   - pop
+  - cake
   layers:
   - Default
   - TransparentFX
